@@ -1,0 +1,614 @@
+/* --- CSS för body används för allt innehåll. --- */
+a img {
+    border: 0;
+}
+
+.fakultet
+{
+padding-top:3px;
+font-size: 15px;
+}
+
+p {
+font-size: 16px;
+line-height: 18px;
+	display: block;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+body {
+	margin:0!important;
+	font-family: 'PT Sans', sans-serif;
+}  
+
+#profile-pic
+{
+float:left;
+margin-right:20px;
+width: 200px;
+height: 200px;
+background-size: cover;
+border-radius: 200px;
+border:#f5f5f5 10px solid;
+}
+
+#profile-details
+{
+float:left;
+}
+
+#busyTimePopup
+{
+top:145px;
+}
+
+#busyStatusPopup
+{
+top:180px;
+}
+
+#hasBusyStatus, #addBusyStatus
+{
+display: none;
+}
+
+#busyTimePopup, #busyStatusPopup
+{
+	display: none;
+	width:250px;
+	background:white;
+	border: 1px solid rgba(100, 100, 100, .4);
+	-webkit-border-radius: 3px;
+	-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+	padding-top:20px;
+	padding-bottom:5px;
+	padding-right:40px;
+	height:auto;
+	position: fixed;
+	right:8%;
+	z-index: 0;
+}
+
+#isLoggedInOnOtherProfile
+{
+display: none;
+}
+
+#profileinfo
+{
+text-align: left;
+padding-left:20px;
+float:left;
+width:700px;
+margin-bottom:20px;
+}
+
+#sweeng
+{
+-webkit-appearance: none;
+height: 0;
+font:0;
+width: 0;
+float:left;
+position: absolute;
+top:-400px;
+line-height: 0;
+visibility: hidden;
+display: none!important;
+}
+
+#loginpopup, #changepasswordform, #updateemailtelephoneform, #updatePic, #addOfficeform, #changeInstituteform {
+	padding-bottom:12px;
+	padding-left:15px;
+	padding-top:10px;
+	padding-right:5px;
+	background: #DADADA;
+	display: none;
+}
+
+.maintable {
+width: 1100px;
+}
+
+#kontrollpanel {
+	display: none;
+	width:250px;
+	background:white;
+	border: 1px solid rgba(100, 100, 100, .4);
+	-webkit-border-radius: 3px;
+	-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+	padding-top:5px;
+	padding-bottom:5px;
+	height:auto;
+	position: fixed;
+	right:8%;
+	top:90px;
+	z-index: 9999;
+}
+
+#exit-kontrollpanel {
+	display: block;
+	border-radius: 20px;
+	position: absolute;
+	top:8px;
+	right:8px;
+	font-size:12px;
+	padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 8px;
+padding-right: 8px;
+	background:#CFCFCF;
+	color:white;
+}
+
+#exit-kontrollpanel:hover {
+	background:#282828;
+}
+
+.itemrow {
+	display: block;
+	width:236px;
+	margin-right:1px;
+	padding-left:7px;
+	padding-right:7px;
+	line-height: 30px;
+	height:30px;
+	margin-bottom:4px;
+}
+
+.itemrow:hover {
+	background: #f2f2f2;
+}
+
+/* --- Tar bort reklam --- */
+.bModal.__bPopup1, #visas_style_div.popup {
+	z-index: 0!important;
+	width: 0px!important;
+	height:0px!important;
+	display: none!important;
+}
+
+/* --- detta är css för alla länkar. En länk som finns, är aktiv och redan besökt. --- */
+a, a:active, a:visited {
+	text-decoration: none;
+	color: #490000;
+}
+
+/* --- detta är css för en länk där användaren håller muspekaren över en länk, då ändras färgen på texten i länken. --- */
+a:hover {
+	color:#850202;
+}
+
+/* --- detta är css för wrappern (skalet) som säger hur stor wrappern ska vara och med hjälp av margin:auto hamnar den i mitten. --- */
+#wrapper {
+padding-top:100px;
+	width:1100px;
+	margin:auto;
+}
+
+/* --- detta är css för headern. --- */
+#head {
+	position: fixed;
+	top:0;
+	height:60px;
+	float:left;
+	width:1080px;
+	background:rgb(240, 240, 240);
+	padding:15px 10px 10px 10px;
+	z-index: 9999;
+}
+
+#profile-control, .profile-name, .profile-name-mobile {
+	float:right;
+	border:0px;
+}
+
+#profile {
+	float:left;
+	text-align:center;
+}
+
+.profile-name-mobile {
+	display: none;
+}
+
+.profile-name {
+	text-transform:capitalize;
+	display: block;
+}
+
+.profile-name, .profile-name-mobile {
+	margin-top:8px;
+	padding:5px;
+	border-radius: 3px;
+	background: #f6f6f6;
+	font-size: 14px;
+	margin-right:7px;
+	line-height: 25px;
+}
+
+.profilelogo {
+	width:50px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-ms-border-radius: 30px;
+	border-radius: 30px; 
+}
+
+.mahlogo {
+	float: left;
+	width:93px;
+}
+
+.profilename {
+	font-size:20px;
+	font-weight: 600;
+}
+
+.statusbuttons {
+margin-bottom: 20px;
+float: left;
+}
+
+.language-control {
+font-size:9px!important;
+text-align: center;
+-webkit-appearance: none;
+	border:none;
+	float:right;
+	background: #CACACA;
+	margin-left:7px;
+	margin-right:7px;
+	height: 50px;
+	width: 50px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-ms-border-radius: 30px;
+	border-radius: 30px;
+	-webkit-transition: background 0.5s; /* For Safari 3.1 to 6.0 */
+	transition: background 0.5s;
+	 
+}
+
+.language-control:hover {
+	color:white;
+	background:#b20b0b;
+}
+
+#profile-control {
+	-webkit-transition: border-bottom-color 0.5s; /* For Safari 3.1 to 6.0 */
+	transition: border-bottom-color 0.5s;
+}
+
+#profile-control:hover {
+	border-bottom: 2px #b20b0b solid;
+}
+
+.statusButton
+{
+width:100px;
+height: 200px;
+float:left;
+}
+
+#changeButton
+{
+-webkit-appearance: none;
+width:200px;
+height:200px;
+border-radius: 200px;
+}
+
+.buttonStatus
+{
+margin-top:77px;
+}
+
+.value
+{
+display: none;
+}
+
+.leftInactive
+{
+background:url('../img/leftinactive.png');
+}
+
+.rightInactive
+{
+background:url('../img/rightinactive.png');
+}
+
+.busyButtonRight
+{
+background:url('../img/rightbusy.png');
+}
+
+
+.busyButtonLeft
+{
+background:url('../img/leftbusy.png');
+}
+
+.busyButtonRight
+{
+background:url('../img/rightbusy.png');
+}
+
+.freeButtonLeft
+{
+background:url('../img/leftfree.png');
+}
+
+.freeButtonRight
+{
+background:url('../img/rightfree.png');
+}
+
+/* --- detta är css för den "rutan" som sökrutan och sökknappen ligger i, som säger hur bred det ska vara samt att den ska vara centrerad. --- */
+#index {
+	text-align:center;
+}
+
+#search {
+	width:500px;
+	margin:auto;
+}
+
+#resultsearch {
+	margin-left:auto;
+	margin-right:auto;
+	width:440px;
+}
+
+.teacherbox {
+min-height: 35px;
+margin-top:15px; 
+	border: #dfdfdf 1px solid;
+	border-radius: 5px;
+	padding:15px 10px;
+	margin-bottom:8px;
+	overflow: hidden;
+
+	-webkit-transition: background .1s ease;
+	-moz-transition: background .1s ease;
+	-ms-transition: background .1s ease;
+	-o-transition: background .1s ease;
+	transition: background .1s ease;
+}
+
+.teacherbox:hover {
+	background: #e7e7e7;
+}
+
+.teacherphoto {
+	width:70px;
+	height: 70px;
+	border-radius: 70px;
+	background-size: cover;
+	float:left;
+	margin-top:5px;
+	margin-left:5px;
+	margin-right:15px;
+}
+
+.email-icon {
+float: right;
+margin-right: 5px;
+margin-top: -55px;
+height: 50px;
+}
+
+.phone-icon {
+	display:none;
+}
+
+/* --- detta är css för sökrutan som säger hur bred den ska vara och med hjälp av border-radius får den rundade hörn. padding skapar "luft". --- */
+#input {
+	width:350px;
+	border-radius:10px;
+	margin-top:20px;
+	padding:5px 5px 5px 5px;
+}
+
+/* --- detta är css för knappen "sök" där border-radius används för rundade hörn och padding används för "luft". --- */
+#button {
+	border-radius:10px;
+	padding:5px 5px 5px 5px;
+}
+
+/* --- css för formuläret. padding skapar luft i botten på formuläret. --- */
+#search {
+	padding:0px 0px 50px 0px;
+}
+
+/* --- css för resultaten. text-align:left gör att texten hamnar till vänster. --- */
+#results {
+	width:900px;
+	text-align:left;
+	margin:auto;
+}
+
+#foot {
+position: absolute;
+	font-size:small;
+	color:grey;
+	height:30px;
+	bottom:0px;
+	width: 100%;
+}
+
+#foot p
+{
+margin-left:auto;
+margin-right:auto;
+width:250px;
+}
+
+/* --- css för skärmanpassning t.ex. för surfplatta --- */
+@media screen and (min-width: 480px) and (max-width: 1100px) {
+
+#profileinfo {
+text-align: left;
+padding-left: 10px;
+float: left;
+width: 45%;
+}
+
+#profile-pic
+{
+margin-right: 0;
+border: 5px;
+width: 75px;
+height: 75px;
+position: fixed;
+top: 100px;
+right: 10px;
+}
+
+.maintable {
+width: 100%;
+}
+
+#head {
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+}
+
+#head, #wrapper {
+	width: 98%;
+}
+
+#results, #search {
+	width:95%;
+}
+
+}
+
+/* --- css för skärmanpassning t.ex. för mobil --- */
+@media screen and (min-width: 0px) and (max-width: 480px) {
+
+.profilename {
+font-size: 24px;
+padding-right:40px;
+}
+
+br
+{
+height:5px;
+}
+
+p
+{
+font-size: 17px;
+line-height: 17px;
+}
+
+#wrapper
+{
+padding-top: 80px;
+}
+
+#profileinfo {
+text-align: left;
+padding-left:20px;
+width: 80%;
+}
+
+#profile-pic
+{
+margin-right: 0;
+border: 5px;
+width: 75px;
+height: 75px;
+position: fixed;
+top: 75px;
+right: 10px;
+}
+
+.statusbuttons
+{
+margin-left:auto;
+margin-right:auto;
+float:none;
+overflow: hidden;
+width: 200px;
+}
+
+.maintable {
+width: 100%;
+}
+
+
+.profile-name-mobile {
+	text-transform:uppercase;
+	display: block;
+}
+
+.profile-name {
+	display: none;
+}
+
+#head {
+	background:rgba(0,0,0,0.5);
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	padding:5px 20px 0px 0px;
+}
+
+#head, #wrapper {
+	width: 100%;
+}
+
+#button {
+	margin-top:10px;
+	font-size:18px;
+	width: 70%;
+	height:40px;
+}
+
+.mahlogo {
+	width: 80px;
+}
+
+.email-icon {
+float: right;
+margin-right: 5px;
+margin-top: -40px;
+height: 30px;
+display: block;
+}
+
+.phone-icon {
+float: right;
+margin-right: 5px;
+margin-top: -70px;
+height: 30px;
+display: block;
+}
+
+#results, #search, #input {
+	width:95%;
+}
+
+#index {
+	margin-top:0px;
+}
+
+#resultsearch {
+	display:none;
+}
+
+#foot  {
+	display:none;
+}
+}
+
+
